@@ -28,7 +28,7 @@ Informando o endereço e clicando em Mostrar no mapa você exibe no mapa a local
 
 # Marcação entre dois pontos
 Informando dois pontos onde um é a origem e o outro o destino, podemos traçar uma trajetória entre estes dois pontos. A trajetória também é exibida em modo de texto conforme a imagem abaixo. 
-![Tela Principal](img/print-mapa-3.png)
+![Tela Principal](img/print-mapa-4.png)
 
 # Finalizando
 Este estudo objetivou o entendimento básico para outras implementações futuras. A idéia principal foi de apenas conhecer um pouco sobre a API e conseguir construir alguma coisa.
