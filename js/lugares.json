@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "nome": "Padaria são Lucas",
+        "site": "http://www.lemenu.com.br/padaria-sao-lucas",
+        "telefone": "(22) 99872-9912",
+        "formas_pagamento": "Sodexo, Visa, Mastercard",
+        "status": "Aberto",
+        "Latitude": -19.212355602107472,
+        "Longitude": -44.20234468749999
+    },
+    {
+        "id": 2,
+        "nome": "Pizzaria Alpha",
+        "site": "http://www.lemenu.com.br/pizzaria-alpha",
+        "telefone": "http://www.lemenu.com.br/pizzaria-alpha",
+        "formas_pagamento": "Ticket alimentação, Visa, Mastercard",
+        "status": "Aberto",
+        "Latitude": -22.618827234831404,
+        "Longitude": -42.57636812499999
+    },
+    {
+        "id": 3,
+        "nome": "Bar do doido",
+        "site": "http://www.lemenu.com.br/bar-do-doido",
+        "telefone": "(23) 98721-1005",
+        "formas_pagamento": "Vale restaurante, Sodexo, Visa, Mastercard",
+        "status": "Aberto",
+        "Latitude": -22.57825604463875,
+        "Longitude": -48.68476656249999
+    },
+    {
+        "id": 4,
+        "nome": "Pizzaria do Franco",
+        "site": "http://www.lemenu.com.br/pizzaria-franco",
+        "telefone": "(19) 09351-1245",
+        "formas_pagamento": "Vale restaurante, Sodexo, Visa, Mastercard",
+        "status": "Aberto",
+        "Latitude": -22.3713520,
+        "Longitude": -48.4416046
+    },
+    {
+        "id": 5,
+        "nome": "Lanchonete da Rilda",
+        "site": "http://www.lemenu.com.br/lanchonete-rilda",
+        "telefone": "(11) 92121-1245",
+        "formas_pagamento": "Vale restaurante, Sodexo, Visa, Mastercard",
+        "status": "Aberto",
+        "Latitude": -21.3713520,
+        "Longitude": -47.4416046
+    }
+
+]

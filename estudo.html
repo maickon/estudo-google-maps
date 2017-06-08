@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Google Maps API v3: Criando um mapa personalizado</title>
+    </head>
+    <link href="css/jquery-ui.css" type="text/css" rel="stylesheet" />
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+
+    <body>
+        <div class="form">
+            <form method="post" action="" id="fomr">   
+                <fieldset>
+                    <legend>Pesquisar Google Maps</legend>   
+             
+                    <div>
+                        <label for="txtEndereco">Endereço:</label>
+                        <input type="text" id="txtEndereco" name="txtEndereco" />
+                        <input type="button" id="btnEndereco" name="btnEndereco" value="Mostrar no mapa" />
+                        <input type="submit" value="Enviar" name="btnEnviar" />
+                    </div>
+             
+                    <input type="hidden" id="txtLatitude" name="txtLatitude" />
+                    <input type="hidden" id="txtLongitude" name="txtLongitude" />
+                </fieldset>
+            </form>
+        </div>
+        
+        <form method="post" action="index.html">
+           <fieldset>
+              <legend>Criar rotas Google Maps</legend>
+                        
+              <div>
+                 <label for="txtEnderecoPartida">Endereço de partida:</label>
+                 <input type="text" id="txtEnderecoPartida" name="txtEnderecoPartida" />
+                 <label for="txtEnderecoChegada">Endereço de chegada:</label>
+                 <input type="text" id="txtEnderecoChegada" name="txtEnderecoChegada" />
+                 <input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar" />
+                 <label for="txtMeioTransporte">Meio de transporte:</label>
+                 <select id="txtMeioTransporte" name="meioTransporte">
+                     <option value="DRIVING">Carro</option>
+                     <option value="BICYCLING">Bicicleta</option>
+                     <option value="TRANSIT">Transporte público</option>
+                     <option value="WALKING">Caminhando</option>
+                 </select>
+              </div>
+           </fieldset>
+        </form>
+        
+        <div id="mapa"></div>
+        <div id="trajeto-texto"></div>
+        
+        <script src="js/jquery-1.12.4.js"></script>
+        <!-- Autocomplete -->
+        <script src="js/jquery-ui.js"></script>
+        <!-- Maps API Javascript -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA-n86zYAHwv4_6jCXf70FRnlRR18kzIEE&amp;sensor=false"></script>
+ 
+        <script src="js/infobox.js"></script>
+        <script src="js/markerclusterer.js"></script>
+        <!-- Arquivo de inicialização do mapa -->
+        <script>
+            MarkerClusterer.prototype.MARKER_CLUSTER_IMAGE_PATH_ = 'img/';
+        </script>
+        <script src="js/mapa.js"></script>
+    </body>
+</html>
