@@ -29,3 +29,30 @@ Informando o endereço e clicando em Mostrar no mapa você exibe no mapa a local
 # Marcação entre dois pontos
 Informando dois pontos onde um é a origem e o outro o destino, podemos traçar uma trajetória entre estes dois pontos. A trajetória também é exibida em modo de texto conforme a imagem abaixo. 
 ![Tela Principal](img/print-mapa-3.png)
+
+# Finalizando
+Este estudo objetivou o entendimento básico para outras implementações futuras. A idéia principal foi de apenas conhecer um pouco sobre a API e conseguir construir alguma coisa.
+
+Para esta implementação foi usado como base de pesquisa alguns artigos como:
+<ul>
+	<li>
+		<a href="http://www.princiweb.com.br/blog/programacao/google-apis/google-maps-api-v3-criando-um-mapa-personalizado.html">
+			Google Maps API v3: Criando um mapa personalizado
+		</a>
+	</li>
+	<li>
+		<a href="http://www.princiweb.com.br/blog/programacao/google-apis/google-maps-api-v3-busca-de-endereco-e-autocomplete.html">
+			Google Maps API v3: Busca de endereço e Autocomplete
+		</a>
+	</li>
+	<li>
+		<a href="http://www.princiweb.com.br/blog/programacao/google-apis/google-maps-api-v3-criando-rotas-entre-multiplos-pontos.html">
+			Google Maps API v3: Criando rotas entre múltiplos pontos
+		</a>
+	</li>
+	<li>
+		<a href="http://googlemaps.github.io/libraries.html">
+			Google Maps API Libraries
+		</a>
+	</li>
+</ul>
